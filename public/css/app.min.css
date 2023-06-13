@@ -1,0 +1,80 @@
+h2 {
+  color: rgb(60, 179, 113)!important;
+   text-align: center;
+}
+
+.btn-primary {
+  background-color: #3333ff;
+  border: none;
+  float:left;
+  border-radius: 8px;
+  color: white;
+ padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+#mytable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#mytable td, #mytable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#mytable tr:nth-child(even){background-color: #f2f2f2;}
+
+#mytable tr:hover {background-color: #ddd;}
+
+#mytable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #94b8b8;
+  color: white;
+}
+
+.btn-submit {
+  background-color: #27551d;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.btn-delete {
+	background-color: #cc0000;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  text-align: center;
+  
+}
+
+.btn-edit {
+	background-color: #3333ff !important;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #c2c2a3;
+  color: black;
+  margin-bottom: 10px;
+}
